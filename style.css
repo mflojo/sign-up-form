@@ -153,13 +153,9 @@ input {
     border-radius: 5px;
 }
 
-/* input:invalid {
+#password:invalid, #confirm-password:invalid {
     border-color: red;
 }
-
-input:valid {
-    border-color: green;
-} */
 
 #button {
     padding: 10px;
