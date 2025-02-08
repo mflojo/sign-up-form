@@ -10,6 +10,7 @@
 
 <body>
     <div id="wrapper">
+
         <div id="left">
             <div id="logo">
                 <img src="Pictogrammers-Material-Magic-staff.512.png" alt="mage staff"> 
@@ -17,14 +18,39 @@
             </div>
             <div id="banner-text">Photo by Adrian Pelletier on Unsplash</div>
         </div>
-        <div id="content">
+
+        <div id="right">
             <div id="info">
                 <h1>JOIN THE TEAM, SIGN UP TODAY</h1>
                 <p>Want to make money beta-testing for games? Join MAGI and become one of the thousands getting paid to squash bugs</p>
             </div>
             <div id="form">
                 <form>
-                    <h2>Create An Account:</h2>
+
+                    <legend><h2>Create An Account:</h2></legend>
+
+                    <div id="column1">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="john@magi.com" required>
+
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" name="password" required>
+                    </div>
+
+                    <div id="column2">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Magi">
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="number" id="phone" name="phone" placeholder="(555)5555555">
+
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="text" id="confirm-password" name="confirm-password">
+                    </div>
+
                 </form>
             </div>
             <div id="sign-up">
@@ -32,6 +58,7 @@
                 <p>Already have an account? Log In</p>
             </div>
         </div>
+
     </div>
     
 </body>
